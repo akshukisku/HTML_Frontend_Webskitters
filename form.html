@@ -1,14 +1,16 @@
 <html>
-    <head>
-        <title>Form Document</title>
-    </head>
+
+<head>
+    <title>Form Document</title>
+</head>
+
 <body>
     <!-- ID used for frontend part
      name used for backend part -->
     <form action="" method="get">
         <label for="">First Name</label>
         <input type="text" placeholder="Enter Your first Name" id="fname" name="fName">
-         <label for="">Last Name</label>
+        <label for="">Last Name</label>
         <input type="text" placeholder="Enter Your Last Name" id="lname" name="lName">
         <br>
         <br>
@@ -28,9 +30,6 @@
         <br><br>
         <label for="">Date</label>
         <input type="date" name="" id="">
-        <br><br>
-        <label for="">File Upload</label>
-        <input type="file" name="myFile" id="myFile">
         <br>
         <br>
         <label for="">Gender</label>
@@ -44,6 +43,39 @@
         <br>
         <input type="submit" value="Register data">
         <input type="reset" value="reset">
+        <br>
+        <br>
+        <!-- multiple attribute required for multiple files upload -->
+        <label for="">File Upload</label>
+        <input type="file" name="myFile" id="myFile" multiple>
+        <br>
+        <h1>Choose College</h1>
+        <input type="checkbox" name="tech" id="tech">
+        <label for="tech">Techno India</label>
+        <input type="checkbox" name="ashu" id="ashu">
+        <label for="ashu">Ashutosh College</label>
+        <br>
+        <br>
+        <label for="ran">Range</label>
+        <input type="range" name="ran" id="ran" min="1" max="10">
+        <br><br>
+        <label for="clr">Color Range:</label>
+        <input type="color" name="colour" id="clr">
+        <br><br>
+        <label for="city">City</label>
+        <select name="city" id="city">
+            <optgroup label="North">
+                <option value="kol">Kolkata</option>
+                <option value="dgr">Durgapur</option>
+            </optgroup>
+            <option value="asn">Asansol</option>
+            <option value="bnk">Bankura</option>
+        </select>
+        <br><br>
+        <label for="msg">Message:</label>
+        <textarea name="msg" id="msg" rows="5" cols="50"></textarea>
+        <br><br>
     </form>
 </body>
+
 </html>
