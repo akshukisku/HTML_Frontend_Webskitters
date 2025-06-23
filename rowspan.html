@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RowSpan Task</title>
+</head>
+<body>
+    <h1> State RowSpan</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Street</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">Kerala</td>
+                <td rowspan="2">Cochin</td>
+                <td>New Street</td>
+            </tr>
+            <tr>
+                <td>Main Street</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Trivandrum</td>
+              <td>Guru Street</td>  
+            </tr>
+            <tr>
+                <td>TVK Street</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Maharastra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>Krishna Streer</td>
+            </tr>
+            <tr>
+                <td>Main Street</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Surath</td>
+                <td>New Street</td>
+            </tr>
+            <tr>
+                <td>Billa Street</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Alaska</td>
+                <td rowspan="2">AKA Central</td>
+                <td>New Street</td>
+            </tr>
+            <tr>
+                <td>Cross Street</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <h1>RowSpan 2</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="5">MYy multi level table</th>
+            </tr>
+            <tr>
+            <th rowspan="2" colspan="2"> Column 0</th>
+            <th rowspan="2"> Column 1</th>
+            <th colspan="2"> Column 2</th>
+            </tr>
+            <tr>
+                <th>column 2a</th>
+                <th>column 2b</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Row1</td>
+                <td>Row1a</td>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+            <tr>
+                <td>Row1b</td>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+            <tr>
+                <td colspan="2">Row 2</td>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="6">Time Table </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">Hours</td>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td colspan="5">Lunch</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
