@@ -1,30 +1,6 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
-html,body{
-    height: 100%;
-    width: 100%;
-}
-#main{
-    height: 100%;
-    width: 100%;
-    display: flex;
+span{
+    color: orange;
 }
 #left{
-    height: 100%;
-    width: 15%;
-    background-color: rgba(230, 212, 75, 0.796);
-}
-#right{
-    height:100%;
-    width: 70%;
-    padding-left: 20px;
-}
-span{
-    font-weight: 900;
-}
-#title{
-    color: orangered;
+    background-color: grey;
 }
