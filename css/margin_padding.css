@@ -1,0 +1,36 @@
+/* 
+
+all
+
+top-bottom left-right
+
+top left-right bottom
+
+top right bottom left
+*/
+
+/* 
+margin top down doestn't work on inline element.
+display:inline-block can change width but display:bloack can't change width
+*/
+body{
+    background-color: darkkhaki;
+}
+.main{
+    /* background-color: darkgrey; */
+    /* width: 60%; */
+    margin: 10px;
+    padding: 10px
+}
+p{
+    color: wheat;
+}
+span{
+    background-color: darkslateblue;
+    width: 200px;
+} 
+.text{
+    display: inline-block;
+    background-color: brown;
+    width: 70%;
+}
