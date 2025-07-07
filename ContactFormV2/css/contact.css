@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: crimson; */
+    background-image: url("../images/clay-banks-u27Rrbs9Dwc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formDivd{
+    margin: 150px auto;
+    background-image: linear-gradient(to left,rgba(48, 46, 46,0.3),rgba(34, 34, 34, 0.4));
+    width: 40%;
+    padding: 60px 10px;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+input[type="email"],input[type="password"]{
+    width: 100%;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border: 2px solid grey;
+    margin-bottom: 20px;    
+    margin-right: 10px;    
+}
+input[type="submit"]
+{
+    padding: 10px;
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+span{
+    text-decoration: underline;
+}

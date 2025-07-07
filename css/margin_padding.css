@@ -10,19 +10,29 @@ top right bottom left
 */
 
 /* 
+Notes:
+
 margin top down doestn't work on inline element.
 display:inline-block can change width but display:bloack can't change width
+padding will work both inline and block elements.
 */
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-color: darkkhaki;
 }
 .main{
     /* background-color: darkgrey; */
     /* width: 60%; */
-    margin: 10px;
-    padding: 10px
+    padding: 10px;
+
 }
 p{
+    /* background-color:red; */
+    margin: 20px auto;
     color: wheat;
 }
 span{
@@ -30,6 +40,7 @@ span{
     width: 200px;
 } 
 .text{
+    margin: 20px auto;
     display: inline-block;
     background-color: brown;
     width: 70%;

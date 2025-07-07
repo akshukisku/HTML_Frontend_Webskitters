@@ -1,0 +1,46 @@
+/* attribute selector */
+/* by default conatin boxx */
+/* rgba a stands for alpha value for defining opacity */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: crimson; */
+    height: 78.5vh;
+    background-image: linear-gradient(to left,rgba(232, 78, 104,0.5),rgba(223, 21, 62,0.4)),url("../images/jonas-degener-BbRRJzYDGoM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formDiv{
+    margin: 150px auto;
+    background-color: white;
+    width: 40%;
+    padding: 30px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid grey;
+    margin-bottom: 30px;        
+}
+input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(to right,rgb(232, 78, 104),crimson);
+    padding: 10px 20px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    text-transform: capitalize;
+}
