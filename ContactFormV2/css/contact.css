@@ -1,47 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    /* background-color: crimson; */
-    background-image: url("../images/clay-banks-u27Rrbs9Dwc-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  /* background-color: crimson; */
+  background-image: url("../images/clay-banks-u27Rrbs9Dwc-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.formDivd{
-    margin: 150px auto;
-    background-image: linear-gradient(to left,rgba(48, 46, 46,0.3),rgba(34, 34, 34, 0.4));
-    width: 40%;
-    padding: 60px 10px;
-    border-radius: 10px;
+.formDivd {
+  margin: 150px auto;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  width: 20%;
+  padding: 60px 10px;
+  border-radius: 10px;
 }
-h2{
-    color: white;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 30px;
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 30px;
 }
-input[type="email"],input[type="password"]{
-    width: 100%;
-    display: block;
-    margin: 5px;
-    padding: 10px;
-    border: none;
-    border: 2px solid grey;
-    margin-bottom: 20px;    
-    margin-right: 10px;    
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border: 2px solid grey;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
-input[type="submit"]
-{
-    padding: 10px;
-    width: 100%;
-    display: block;
-    margin: 10px auto;
-    background-color: orangered;
-    color: white;
-    border: none;
+input[type="submit"] {
+  padding: 10px;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+  background-color: orangered;
+  color: white;
+  border: none;
 }
-span{
-    text-decoration: underline;
+span {
+  text-decoration: underline;
 }

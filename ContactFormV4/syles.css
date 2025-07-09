@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to left,rgb(163, 163, 235),rgb(240, 186, 240));
+}
+.main{
+    width: 50%;
+    margin:120px auto;
+    /* border: 1px solid black; */
+}
+.left{
+    background-image: url("../images/HD-wallpaper-person-standing-around-pink-smokes.jpg");
+    padding: 254px 20px;
+    background-size: cover;
+    border-radius: 10px 1px 1px 10px;
+    width: 50%;
+    float: left;
+    /* border: 1px solid black; */
+    background-color: rgb(114, 194, 221);
+}
+.right{
+    width: 50%;
+    float: right;
+    padding: 40.5px 60px;
+    background-color: black;
+    /* border: 1px solid black; */
+    border-radius: 1px 10px 10px 1px;
+}
+img{
+    height: 200px;
+    width: 200p;
+}
+input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid grey;
+    margin-bottom: 30px;      
+}
+input[type="submit"]
+{
+
+    display: block;
+    margin: 10px auto;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #34c759;
+    color: white;
+    border: none;
+}
+select{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #666;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 22px;
+  color: white;
+  font-size: 16px;
+}
+h2{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
