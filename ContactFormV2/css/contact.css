@@ -5,22 +5,22 @@
 }
 body{
     /* background-color: crimson; */
-    background-image: url("../images/clay-banks-u27Rrbs9Dwc-unsplash.jpg");
+    background-image: url("../images/tamara-malaniy--hHOvP34GTg-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .formDivd{
     margin: 150px auto;
     background-image: linear-gradient(to left,rgba(48, 46, 46,0.3),rgba(34, 34, 34, 0.4));
-    width: 40%;
-    padding: 60px 10px;
+    width: 25%;
+    padding: 30px 10px;
     border-radius: 10px;
 }
 h2{
     color: white;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 input[type="email"],input[type="password"]{
     width: 100%;
