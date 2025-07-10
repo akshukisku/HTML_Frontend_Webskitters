@@ -1,8 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+<<<<<<< HEAD
 body{
     /* background-color: crimson; */
     background-image: url("../images/tamara-malaniy--hHOvP34GTg-unsplash.jpg");
@@ -21,27 +22,52 @@ h2{
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 20px;
+=======
+body {
+  /* background-color: crimson; */
+  background-image: url("../images/clay-banks-u27Rrbs9Dwc-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-input[type="email"],input[type="password"]{
-    width: 100%;
-    display: block;
-    margin: 5px;
-    padding: 10px;
-    border: none;
-    border: 2px solid grey;
-    margin-bottom: 20px;    
-    margin-right: 10px;    
+.formDivd {
+  margin: 150px auto;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  width: 20%;
+  padding: 60px 10px;
+  border-radius: 10px;
 }
-input[type="submit"]
-{
-    padding: 10px;
-    width: 100%;
-    display: block;
-    margin: 10px auto;
-    background-color: orangered;
-    color: white;
-    border: none;
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+>>>>>>> 3ea159c16210978ebe154ce212bbb56fa0637785
 }
-span{
-    text-decoration: underline;
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border: 2px solid grey;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+input[type="submit"] {
+  padding: 10px;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+span {
+  text-decoration: underline;
 }
