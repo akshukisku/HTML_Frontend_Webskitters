@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    background-color: black;
+}
+/* inset value is used for give shadow inside the container of the div */
+/* box shadow text shadow */
+.imgcon{
+    width: 30%;
+    border: 2px solid orange;
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px white;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px red;
+}

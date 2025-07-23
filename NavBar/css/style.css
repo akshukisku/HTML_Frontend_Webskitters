@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: black; */
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col{
+    padding: 0 15px;
+}
+.col-50{
+    width: 50%;
+}
+.col-33{
+    width: 33.33%;
+}
+.col-25{
+    width: 25%;
+}
+.section_padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/*  */
+
+/* topabr */
+.topbar{
+    padding: 5px 0;
+}
+.topbarList{
+    display: flex;
+    justify-content: flex-end;
+}
+.topbarList li{
+    margin-left: 10px;
+}
+/*  */
+.navbar{
+    /* From https://css.glass */
+background-color: wheat;
+    padding: 2px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navList{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    /* background-color: aqua; */
+}
+.navbar_brand{
+    max-width: 100px;
+    width: 100%;
+}
+.navList li{
+    margin-left: 10px;
+}
+
+/* Banner */
+.banner{
+    height: calc(100vh - 134.5px);
+    background-image: url("../images/makima-cosplay-chainsaw-man-u4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0, 0, 0.5);
+    background-blend-mode: multiply;
+    padding: 10px 0;
+    background-repeat: no-repeat;
+}
+
+.banner .container{
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+
+}
+

@@ -24,7 +24,7 @@ body{
 .right{
     width: 50%;
     float: right;
-    padding: 40.5px 60px;
+    padding: 46px 60px;
     background-color: black;
     /* border: 1px solid black; */
     border-radius: 1px 10px 10px 1px;
@@ -47,7 +47,7 @@ input[type="submit"]
 {
 
     display: block;
-    margin: 10px auto;
+    /* margin: 10px auto; */
     padding: 10px 30px;
     border-radius: 50px;
     background-color: #34c759;
@@ -55,18 +55,18 @@ input[type="submit"]
     border: none;
 }
 select{
-  background-color: transparent;
+  background-color: black;
   border: none;
   border-bottom: 1px solid #666;
   width: 100%;
   margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 22px;
-  color: white;
-  font-size: 16px;
+  color: grey;
 }
 h2{
     font-size: 25px;
     color: white;
     margin-bottom: 20px;
+    margin-left: 15px;
 }
