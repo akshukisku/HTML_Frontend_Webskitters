@@ -24,7 +24,7 @@ body{
 .right{
     width: 50%;
     float: right;
-    padding: 40.5px 60px;
+    padding: 45px 60px;
     background-color: black;
     /* border: 1px solid black; */
     border-radius: 1px 10px 10px 1px;
@@ -33,39 +33,40 @@ img{
     height: 200px;
     width: 200p;
 }
-input[type="text"],input[type="email"],textarea{
+input[type="text"],input[type="email"]{
     width: 100%;
     display: block;
     margin: 10px;
     padding: 10px;
     border: none;
     background-color: black;
-    border-bottom: 2px solid grey;
-    margin-bottom: 30px;      
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+    color: white;      
 }
 input[type="submit"]
 {
 
     display: block;
-    margin: 10px auto;
-    padding: 10px 30px;
+    margin: 10px;
+    padding: 10px 25px;
     border-radius: 50px;
     background-color: #34c759;
     color: white;
     border: none;
 }
 select{
-  background-color: transparent;
+  background-color: black;
   border: none;
   border-bottom: 1px solid #666;
   width: 100%;
   margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 22px;
-  color: white;
-  font-size: 16px;
+  color: rgb(150, 144, 144);
 }
 h2{
+    margin-left: 10px;
     font-size: 25px;
     color: white;
     margin-bottom: 20px;
