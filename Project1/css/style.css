@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common classes */
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+li{
+    margin-left: 20px;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col{
+    padding: 0 15px;
+}
+.col-50{
+    width: 50%;
+}
+.col-33{
+    width: 33.33%;
+}
+.col-25{
+    width: 25%;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+.section-padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: black;
+    padding: 20px 0;
+}
+.navlist{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: red; */
+}
+.navbar_brand p{
+font-size: 30px;
+color: white;
+}
+.navbar_brand span{
+    font-size: 30px;
+    color: rgb(31, 31, 154);
+}
+
+/* banner */
+.banner{
+    background-image: url("../img/banner-bg.png");
+    padding: 10px 0;
+    height: calc(100vh - 55px);
+    background-size: cover;
+}
+.banner .container{
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.banner_items{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.banner_items h2{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.banner_items a{
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 40px;
+    /* background-color: blue; */
+    border: 1px solid white;
+}
+.banner_items a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Cards */
+.cards h2{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.cards p{
+    font-size: 25px;
+    opacity: 0.8;
+    /* line-height: 30px; */
+}
+.cards .container{
+    text-align: center;
+    /* background-color: red; */
+    padding: 60px 10px;
+}
+.cards .container .col{
+    margin-top: 40px;
+}
+.cards .container .card{
+    padding: 40px 20px;
+    /* background-color: violet; */
+}
+
+.cards .col{
+    /* background-color: red; */
+    padding-top: 50px;
+}
+
+.card-content h3{
+    padding-top: 15px;
+    color: black;
+}
+
+.card-content p{
+    padding-top: 8px;
+    font-size: 17px;
+}
+
+.cards .card img{
+    height: 25%;
+    width: 25%;
+}

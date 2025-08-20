@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+}
+
+.mainDiv {
+    border: 2px solid black;
+    height: 650px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    /* 
+    flex wrap by default is no wrap if the flex-wrap has wrap properties
+    it will shrink the content in the main div section and align-content will work if the flex-wrap property has wrap within it
+    */
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.box {
+    width: 150px;
+    /* padding: 20px; */
+    height: 100px;
+    color: black;
+    /* margin:10px; */
+}
+
+#item1,
+#item2,
+#item3,
+#item4,
+#item5 {
+    /* padding: 4px; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+#item1 {
+    background-color: darkcyan;
+    order: 10;
+}
+
+#item2 {
+    background-color: darkgoldenrod;
+    order: 5;
+}
+
+#item3 {
+    background-color: darkkhaki;
+}
+
+#item4 {
+    background-color: darkorange;
+    order: 10;
+}
+
+#item5 {
+    background-color: darkorchid;
+}

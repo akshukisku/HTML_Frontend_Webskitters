@@ -1,0 +1,88 @@
+/* Reset & font */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(204, 219, 219);
+  font-family: "Bitcount Prop Single", sans-serif;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* figure{
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+} */
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col {
+  padding: 0 15px;
+}
+
+.col-33 {
+  width: 33.33%;
+}
+
+/* Card styling */
+.card {
+  position: relative;
+  padding: 80px 10px;
+  /* height: 300px; */
+  background-color: white;
+  border: 2px solid black;
+  /* margin: 50px 0; */
+}
+
+/* Circle (top-right) */
+.circle {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+}
+
+/* Rectangle (bottom-left) */
+.rectangle {
+  position: absolute;
+  bottom: -10px;
+  left: -20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid black;
+  background: white;
+  text-align: center;
+}
+
+/* Star (center) */
+.text {
+  position: absolute;
+  top: 50%;
+  height: 50%;
+  width: 100%;
+  /* border: 1px solid black; */
+  padding:100px 0;
+  z-index: 9;
+
+}

@@ -3,6 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
+body{
+    /* background-color: crimson; */
+    background-image: url("../images/tamara-malaniy--hHOvP34GTg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formDivd{
+    margin: 150px auto;
+    background-image: linear-gradient(to left,rgba(48, 46, 46,0.3),rgba(34, 34, 34, 0.4));
+    width: 25%;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+=======
 body {
   /* background-color: crimson; */
   background-image: url("../images/clay-banks-u27Rrbs9Dwc-unsplash.jpg");
@@ -26,6 +46,7 @@ h2 {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 30px;
+>>>>>>> 3ea159c16210978ebe154ce212bbb56fa0637785
 }
 input[type="email"],
 input[type="password"] {
