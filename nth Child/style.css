@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li:nth-child(odd){
+    background-color: red;
+}
+p:nth-child(2)
+{
+    font-size: 50px;
+}
+
+.mainDiv{
+    /* position: absolute; */
+    /* margin: 0 auto; */
+    height: 100px;
+    width: 100px;
+    background-color: #111;
+    padding: 20px 0;
+}
+.box{
+    
+}
+
+.mainDiv p{
+    color: darkgray;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width:1199px) {
+    .mainDiv{
+        background-color: red;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .mainDiv{
+
+        background-color: darkgoldenrod;
+        border-radius: 50%;
+    }
+    .mainDiv {
+        color: darkkhaki;
+        font-size: 20px;
+    }
+
+}

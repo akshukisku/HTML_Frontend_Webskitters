@@ -110,3 +110,16 @@ nav{
 
 }
 
+
+
+.section-content{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sectionPara{
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+

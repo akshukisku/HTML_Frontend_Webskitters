@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .first_part{
+     font-family: "Bitcount Prop Single", system-ui;
+} */
+
+main{
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+}
+
+.box{
+    height:100px;
+    width: 100px;
+}
+
+#item1{
+background-color: red;
+}
+#item2{
+    background-color: darkgoldenrod;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+#item3{
+    background-color: darkgrey;
+}
