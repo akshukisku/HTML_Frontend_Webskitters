@@ -24,7 +24,11 @@ body{
 .right{
     width: 50%;
     float: right;
+<<<<<<< HEAD
+    padding: 45px 60px;
+=======
     padding: 46px 60px;
+>>>>>>> cf07725bc5d45261f5b53010f679e7f02f056d40
     background-color: black;
     /* border: 1px solid black; */
     border-radius: 1px 10px 10px 1px;
@@ -33,22 +37,28 @@ img{
     height: 200px;
     width: 200p;
 }
-input[type="text"],input[type="email"],textarea{
+input[type="text"],input[type="email"]{
     width: 100%;
     display: block;
     margin: 10px;
     padding: 10px;
     border: none;
     background-color: black;
-    border-bottom: 2px solid grey;
-    margin-bottom: 30px;      
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+    color: white;      
 }
 input[type="submit"]
 {
 
     display: block;
+<<<<<<< HEAD
+    margin: 10px;
+    padding: 10px 25px;
+=======
     /* margin: 10px auto; */
     padding: 10px 30px;
+>>>>>>> cf07725bc5d45261f5b53010f679e7f02f056d40
     border-radius: 50px;
     background-color: #34c759;
     color: white;
@@ -62,9 +72,14 @@ select{
   margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 22px;
+<<<<<<< HEAD
+  color: rgb(150, 144, 144);
+=======
   color: grey;
+>>>>>>> cf07725bc5d45261f5b53010f679e7f02f056d40
 }
 h2{
+    margin-left: 10px;
     font-size: 25px;
     color: white;
     margin-bottom: 20px;

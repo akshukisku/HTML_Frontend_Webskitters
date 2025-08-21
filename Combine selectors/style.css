@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    border: 2px solid black;
+}
+.main p{
+    font-size: 45px;
+    /* color: red; */
+}
+.main>p{
+    /* color: blanchedalmond; */
+}
+.main~p{
+    background-color: red;
+}
+.main+p{
+    /* background-color: aqua; */
+}
+h2::before{
+    content: open-quote;
+}
+h2::after{
+    content: close-quote;
+}
+.icon{
+    list-style: none;
+}
+.icon li::before{
+    content: "";
+    background-image: url("./images/tag.png");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.greet {
+    font-size: 120px;
+    font-family: "Dancing Script", cursive;
+    color: maroon;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
+    position: relative;
+}
+
+.greet::after {
+    content: "";
+    width: 40%;
+    height: 4px;
+    background: maroon;
+    /* box-shadow: 0 1px 0 yellow; */
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
