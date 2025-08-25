@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --darkblack:#263238;
+    --mediumblue:#455A64;
+    --lightblue:#B0BEC5;
+    --lightgrey:#f7f7f7;
+    --textfont:"Gilroy"
+}
+body{
+    font-family: var(--textfont);
+}
+
+/* common element */
+ul {
+  list-style: none;
+}
+
+a{
+    color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1{
+  font-size: 60px;
+  letter-spacing: 1;
+  font-weight: 800;
+  color: var(--orange);
+}
+
+h2{
+  font-size: 30px;
+  letter-spacing: 1;
+  font-weight: 600;
+}
+
+/* common  class*/
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section-padding{
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col{
+    padding: 0 15px;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-25{
+    width: 25%;
+}
+
+/* Navbar */
+.navbar-toggler{
+    font-size: 30px;
+    display: none;
+}
+
+.navbar{
+    background-color: var(--darkblack)
+}
+.navlist{
+    display: flex;
+    justify-content: flex-end;
+    /* gap: 60px; */
+}
+
+nav,.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlist li{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .navbar-brand{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .navlist{
+        flex-direction: column;
+        display: none;
+    }
+    .navlist li{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
