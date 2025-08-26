@@ -1,23 +1,23 @@
 @font-face {
-    font-family: 'Gilroy';
-    src: url("../fonts/Gilroy-Regular.ttf");
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.ttf");
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --darkblack:#263238;
-    --mediumblue:#455A64;
-    --lightblue:#B0BEC5;
-    --lightgrey:#f7f7f7;
-    --textfont:"Gilroy"
+:root {
+  --darkblack: #263238;
+  --mediumblue: #455a64;
+  --lightblue: #b0bec5;
+  --lightgrey: #f7f7f7;
+  --textfont: "Gilroy";
 }
-body{
-    font-family: var(--textfont);
+body {
+  font-family: var(--textfont);
 }
 
 /* common element */
@@ -25,108 +25,168 @@ ul {
   list-style: none;
 }
 
-a{
-    color: white;
+a {
+  color: white;
   display: inline-block;
   text-decoration: none;
 }
 
-img{
+img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-h1{
+h1 {
   font-size: 60px;
   letter-spacing: 1;
   font-weight: 800;
   color: var(--orange);
 }
 
-h2{
+h2 {
   font-size: 30px;
   letter-spacing: 1;
   font-weight: 600;
 }
 
 /* common  class*/
-.container{
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.section-padding{
-    padding-top: 100px;
-    padding-bottom: 100px
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -15px;
-}
-.col{
-    padding: 0 15px;
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.col-50{
-    width: 50%;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.col {
+  padding: 0 15px;
 }
 
-.col-25{
-    width: 25%;
+.col-50 {
+  width: 50%;
+}
+
+.col-25 {
+  width: 25%;
 }
 
 /* Navbar */
-.navbar-toggler{
-    font-size: 30px;
+.navbar-toggler {
+  font-size: 30px;
+  display: none;
+}
+
+.navbar {
+  background-color: var(--darkblack);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.navlist {
+  display: flex;
+  justify-content: flex-end;
+  /* gap: 60px; */
+}
+
+nav,
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlist li {
+  margin-left: 20px;
+}
+
+.banner {
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/images_2.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 400px;
+}
+
+.banner-content p {
+  margin-bottom: 20px;
+}
+
+/* products */
+.products figure {
+  max-width: 200px;
+  width: 100%;
+}
+
+/* md */
+@media screen and (max-width: 767px) {
+  .col-md-100 {
+    width: 100%;
+  }
+  .col-md-50 {
+    width: 50%;
+  }
+  .col-md-25 {
+    width: 25%;
+  }
+  .navbar-brand {
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-toggler {
+    display: block;
+  }
+  .navlist {
+    flex-direction: column;
     display: none;
+  }
+  .navlist li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
 }
 
-.navbar{
-    background-color: var(--darkblack)
-}
-.navlist{
-    display: flex;
-    justify-content: flex-end;
-    /* gap: 60px; */
-}
-
-nav,.navbar-brand{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navlist li{
-    margin-left: 20px;
-}
-
-
-
-
-
-
-
-@media screen and (max-width:767px){
-    .navbar-brand{
-        width: 100%;
-    }
-    nav{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .navbar-toggler{
-        display: block;
-    }
-    .navlist{
-        flex-direction: column;
-        display: none;
-    }
-    .navlist li{
-        margin-left: 0;
-        margin-bottom: 10px;
-    }
+/* sm */
+@media screen and (max-width: 575px) {
+  .banner .container {
+    justify-content: center;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .col-sm-100 {
+    width: 100%;
+  }
+  .col-sm-50 {
+    width: 50%;
+  }
+  .col-sm-25 {
+    width: 25%;
+  }
 }

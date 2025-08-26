@@ -113,7 +113,18 @@ nav {
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
+.navbar-logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* display: none; */
+}
 
+.navbar-toggler i{
+  /* margin-top: 20px; */
+  font-size: 30px;
+  display: none;
+}
 nav .button:hover {
   transition: all ease-in 0.5s;
   background-color: white;
@@ -310,4 +321,26 @@ nav .button {
   transition: all ease-in 2s;
   display: inline-block;
   color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+  .navbar-items{
+    display: none;
+  }
+  .navbar-toggler i{
+    display: block;
+  }
+ .text-part{
+    font-size: 10px;
+  }
 }
