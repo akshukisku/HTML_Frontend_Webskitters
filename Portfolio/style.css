@@ -82,8 +82,9 @@ nav {
   gap: 50px;
 }
 .model {
-  height: 80%;
-  width: 80%;
+  
+  max-width: 500px;
+  width: 100%;
   margin-left: 50px;
   border-radius: 40px;
   overflow: hidden;
@@ -331,9 +332,16 @@ nav .button {
 
 
 
-
-
 @media screen and (max-width:767px) {
+  .col-md-100{
+    width: 100%;
+  }
+  .col-md-50{
+    width: 50%;
+  }
+  .col-md-25{
+    width: 25%;
+  }
   .navbar-items{
     display: none;
   }
@@ -342,5 +350,33 @@ nav .button {
   }
  .text-part{
     font-size: 10px;
+  }
+  nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-logo{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+  }
+
+  .hero-section .row{
+    flex-direction: column;
+  }
+
+  .project-section .row{
+    flex-direction: column;
+  }
+  .hero-section .text-part{
+    /* background-color: red; */
+    text-align: center;
+  }
+  .hero-section .button-icons{
+    /* background-color: red; */
+    text-align: center;
+    padding: 10px 0;
   }
 }
