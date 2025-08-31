@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Inter", sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+a{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* common  class*/
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* background: rgba(255, 0, 0, 0.2); */
+}
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.col {
+  padding: 0 15px;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.design{
+    color: #FF6600;
+}
+
+/* Navbar */
+.logo{
+     font-family: "Knewave", system-ui;
+     font-size: 24px;
+     font-weight: 400;
+}
+.navbar{
+    background-color: #333333;
+    padding: 10px 15px;
+}
+.navlist{
+    display: flex;
+    gap: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #FF6600;
+    border-radius: 4px;
+    padding: 8px 20px;
+}
+/*banner  */
+
+.banner{
+    height: calc(100vh - 57px);
+    background-image: url("../images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-content{
+    /* background-color: red; */
+    max-width: 500px;
+    width: 100%;
+    font-size: 30px;
+}
+.banner .container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+/*About-Us */
+.about-us h2{
+    text-align: center;
+    padding: 50px 0;
+}
+.text{
+    padding: 0 20px;
+}
+.text h3{
+    padding-bottom: 20px;
+}
+
+.text p{
+    padding: 15px 0;
+}
+
+/* portfolios */
+.card{
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card-content{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolios h3{
+    /* background-color: red; */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+/* Packages */
+
+.packages h2{
+  text-align: center;
+  font-size: 32;
+  padding: 30px 0;
+}
+.cards{
+  max-width: 350px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 25px 40px; 
+}
+
+.cards h3{
+  padding: 10px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  /* background-color: red; */
+}
+
+.cards h4{
+  font-size: 30px;
+  font-weight: 300;
+  color: red;
+  padding: 10px 0;
+}
+/* testimonials */
+
+.testimonials h2{
+  padding: 20px 0;
+  text-align: center;
+}
+.carded figure{
+  width: 138px;
+  height: 138px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.carded{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+text-align: center;
+border: 1px solid black;
+padding: 40px 0;
+}
+
+.text-part{
+  padding: 20px 50px;
+}
+
+.text-part h4{
+  padding: 10px 0;
+}
+
+/* blogs */
+.blogs h2{
+  padding: 20px 0;
+  text-align: center;
+}
+.card-box{
+  /* border: 1px solid black; */
+  max-width: 350px;
+  width: 100%;
+}
+.card-box figure{
+  height: 389px;
+  width: 364px;
+  overflow: hidden;
+}
+.text-area{
+  text-align: center;
+  padding: 20px 40px;
+}
+.text-area h4{
+  /* padding: 10px 0;0 */
+  padding-top: 10px;
+  font-weight: 300;
+}
+.text-area p{
+  padding:20px 0;
+}
+
+
+/* footer */
+footer{
+  background-color: #333333;
+}
+
+footer .row .col-33{
+  /* background-color: red; */
+  max-width: 350px;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+footer .col-33 h2{
+  padding: 5px 0;
+}
+
+footer .col-33 p{
+  padding: 20px 0;
+}
+footer .col-33{
+  border-right:  1px solid white;
+}
+
+.last-section{
+  padding: 10px 0;
+}
+
+.icons-section i{
+  color: white;
+  font-size: 30px;
+  
+}
+
+@media screen and (max-width: 767px) {
+  .col-md-100 {
+    width: 100%;
+  }
+  .col-md-50 {
+    width: 50%;
+  }
+  .col-md-25 {
+    width: 25%;
+  }
+  .about-us .row{
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 20px;
+  }
+  .portfolios .row{
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .about-us .section-padding{
+    display: none;
+  }
+ .navbar-brand{
+  width: 100%;
+ }
+ .navlist{
+  display: none;
+ }
+ .packages .row{
+  gap: 10px;
+  justify-content: center;
+ }
+ .testimonials .row{
+  flex-direction: column;
+  /* background-color: #333333; */
+  align-items: center;
+  gap: 10px;
+ }
+ .blogs .row{
+  justify-content: center;
+ }
+footer .row{
+  flex-direction: column;
+  align-items: center;
+  /* border-bottom: 1px solid white; */
+} 
+footer .row .col-33{
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+
+.last-section{
+  text-align: center;
+  padding: 10px 0;
+}
+}
