@@ -379,4 +379,9 @@ nav .button {
     text-align: center;
     padding: 10px 0;
   }
+  .add-project-section .row{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
 }
