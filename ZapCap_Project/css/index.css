@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Noto Sans", sans-serif;
+}
+
+
+/* Common Classes */
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+   font-family: "Manrope", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+li {
+  /* background-color: red; */
+  /* margin: 2px; */
+  margin-left: 15px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.col {
+  padding: 0 15px;
+}
+.col-50 {
+  width: 50%;
+}
+.col-33 {
+  width: 33.33%;
+}
+.col-25 {
+  width: 25%;
+}
+.col-40{
+    width: 40%;
+}
+.col-60{
+    width: 60%;
+}
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.design{
+    background-color:#F97316;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.text-color{
+    color: #F97316;
+}
+/* Navbar */
+.navbar-toggler {
+  font-size: 30px;
+  display: none;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand{
+  display: flex !important;
+  align-items: center !important;
+}
+.navbar-items{
+    display: flex;
+    justify-content: center;
+}
+.navbar-toggler{
+  display: none;
+}
+.navlist{
+    display: flex;
+}
+
+.navbar-lastsection {
+  display: flex;
+  align-items: center;
+}
+/* banner */
+.banner .text-content h4{
+    font-size: 39px;
+}
+
+
+.text-content-3{
+    display: flex;
+    gap: 10px;
+}
+
+/* shorts */
+.shorts .text-content h2{
+    font-size: 22px;
+    text-align: center;
+}
+
+.brands-logo figure{
+  width: 138px;
+}
+.brands-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.text-part{
+  margin: 20px 0;
+  text-align: center;
+}
+.text-part h3{
+  font-size: 36px;
+}
+.shorts-card .row{
+  gap: 10px;
+}
+.cards{
+     position: relative;
+      width: 220px;
+      border-radius: 15px;
+      overflow: hidden;
+      /* background: #000; */
+      /* box-shadow: 0 4px 10px rgba(0,0,0,0.2); */
+}
+.play-btn{
+        position: absolute;
+      bottom: 20px;
+      right: 10px;
+      width: 28px;
+      height: 28px;
+      background: #ff4500;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+}
+.play-btn i{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 2px;
+}
+.shorts-button{
+  margin: 20px auto; 
+  text-align: center;
+}
+.shorts-button .design{
+  display: inline;
+}
+
+/* features */
+
+.features .text-content h2{
+    font-size: 22px;
+    text-align: center;
+}
+.features .text-content{
+    margin: 50px 0;
+}
+
+.features .cards-section .card{
+width: 380px;
+background-color: #FF822C;
+margin: 0 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 15px 25px;
+}
+.features .card p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.features .card figure{
+    width: 125px;
+}
+
+/* overview */
+
+    .tabs {
+      margin: 40px 0;
+      display: flex;
+      gap: 40px; /* space between tabs */
+      border-bottom: 3px solid black; /* grey line under tabs */
+    }
+
+    .tab {
+      position: relative;
+      padding-bottom: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .tab.active {
+      font-weight: bold;
+    }
+
+    .rule-box {
+      /* background: #fafafa; */
+      /* border: 1px solid #eee; */
+      border-radius: 6px;
+      padding: 15px;
+    }
+
+    .rule {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 10px 0;
+      flex-wrap: wrap;
+    }
+    .box{
+      padding: 10px;
+      color: #FF822C;
+      background-color: #fcd8c1;
+      border-radius: 10px;
+    }
+    .boxes{
+       padding: 5px 30px;
+      color: #FF822C;
+      background-color: #fcd8c1;
+      border-radius: 10px;
+    }
+    .boxer{
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+
+/* related themes */
+.related-themes .text-part2 h2{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.related-themes  .block{
+  /* background-color: red; */
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: 1px solid #F97316;
+}
+.related-themes .row{
+  margin: 20px 0;
+  justify-content: center;
+}
+.related-themes .row .col{
+  display: flex;
+  gap: 30px;
+}
+
+/* template */
+.templates .text-part3{
+  text-align: center;
+  margin: 20px 0;
+}
+.templates .text-part3 h2{
+  font-size: 40px;
+  /* text-transform: uppercase; */
+}
+.templates .row figure{
+  width: 300px;
+}
+.templates .row .col{
+  display: flex;
+  gap: 20px;
+}
+.text-part4{
+  margin: 20px 0;
+  text-align: end;
+}
+
+/* frequently */
+.frequently{
+padding: 50px 0;
+}
+.text-content3{
+  text-align: center;
+}
+.boxing{
+  margin: 20px 0;
+  /* background-color: red; */
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px  solid black;
+}
+.boxing p{
+  font-size: 32px;
+}
+.plus-button{
+  background-color: rgb(221, 210, 210);
+  display: inline;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* testimonails */
+.testimonials .text-part5{
+  text-align: center;
+  margin: 20px 0;
+}
+.testimonials .text-part5 h2{
+    font-size: 36px;
+}
+  .profile-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* gap: 15px; */
+    }
+ .small {
+      width: 80px;
+      height: 80px;
+      overflow: hidden;
+      border-radius: 70%;
+    }
+  .medium {
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      border-radius: 70%;
+    }
+  .large {
+      width: 160px;
+      height: 160px;
+      overflow: hidden;
+      border-radius: 30%;
+    }
+
+/* *  */ 
+.last-section{
+  /* height: 50vh; */
+  background-image: url("../images/Rectangle\ 4482.png");
+  background-size: cover;
+}
+.text-content-4{
+  margin: 50px 0;
+}
+
+.button{
+  margin: 40px 0;
+  display: inline-block;
+  background-color: white;
+  padding: 8px 40px;
+  border-radius: 10px;
+  color: orange;
+}
+
+/* footer */
+footer .row{
+  padding: 20px 0;
+}
+footer .row .col-25 figure{
+  width: 150px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+  .col-md-100{
+    width: 100%;
+  }
+  .col-md-50{
+    width: 50%;
+  }
+  .col-md-25{
+    width: 25%;
+  }
+  .navlist{
+    flex-direction: column;
+    display: none;
+  }
+  nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   /* background-color: red; */
+   width: 100%;
+  }
+  .navbar-brand{
+    display: flex !important;
+    align-items: center !important;
+    /* background-color: red; */
+    width: auto;
+  }
+  .navbar{
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .navbar-toggler{
+    display: block;
+    /* margin-left: auto; */
+  }
+  .navbar-lastsection{
+    display: none;
+  }
+/* banner */
+
+.banner .row{
+  flex-direction: column-reverse;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 10px 0;
+}
+.banner .col-50{
+  /* align-items: center; */
+  justify-content: center;
+  /* background-color: red; */
+  flex-direction: column;
+}
+
+
+
+
+
+  .features .cards-section .row{
+    align-items: center;
+    justify-content: center;
+  }
+.shorts-card .row{
+  justify-content: center;
+}
+.related-themes .col {
+/* background-color: red; */
+flex-direction: column;
+}
+.related-themes .text-part2{
+  text-align: start;
+}
+.templates .col{
+  flex-direction: column;
+  /* align-items: center; */
+  /* align-content: center; */
+  /* text-align: center; */
+  /* background-color: red; */
+  /* justify-content: center; */
+
+}
+.templates .row{
+  /* align-items: center; */
+  /* background-color: blue; */
+  justify-content: center;
+}
+}
+
+@media  screen and (max-width: 480px) {
+  .col-sm-100{
+    width: 100%;
+  }
+  .col-sm-50{
+    width: 50%;
+  }
+  .col-sm-25{
+    width: 25%;
+  }
+  
+}
