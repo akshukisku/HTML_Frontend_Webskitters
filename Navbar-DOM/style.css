@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --darkblack: #263238;
+  --mediumblue: #455a64;
+  --lightblue: #b0bec5;
+  --lightgrey: #f7f7f7;
+  --textfont: "Gilroy";
+}
+/* common element */
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 1;
+  font-weight: 800;
+  color: var(--orange);
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 1;
+  font-weight: 600;
+}
+
+/* common  class*/
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.col {
+  padding: 0 15px;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+/* Navbar */
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-toggler {
+  font-size: 30px;
+}
+.navbar-toggler i{
+    color: white;
+}
+
+.navbar {
+  background-color: var(--darkblack);
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 10px 20px;
+}
+.navlist {
+  display: flex;
+  justify-content: flex-end;
+  /* gap: 60px; */
+}
+nav,
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlist li {
+  margin-left: 20px;
+}
+
+.navbar-logo img{
+    max-width: 50px;
+}
+.btn{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .col-md-100 {
+    width: 100%;
+  }
+  .col-md-50 {
+    width: 50%;
+  }
+  .col-md-25 {
+    width: 25%;
+  }
+
+  .navbar-brand {
+    width: 100%;
+  }
+  .navbar{
+    position: relative;
+  }
+  nav {
+    display: flex;
+    /* width: 100%; */
+  }
+  .navItems{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    /* background-color: red; */
+  }
+  .navbar-toggler {
+    display: block;
+  }
+  .navlist {
+ flex-direction: column;
+    display: none;
+    background-color: #263238;  
+    width: 100%;         
+    position: absolute;   
+    right: 35px;
+    padding: 10px 20px;
+    top:-5px;                      
+  }
+  .navlist li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .shownav{
+    display: block;
+  }
+   .navlist.shownav {
+    display: flex;
+  }
+}

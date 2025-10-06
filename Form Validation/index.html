@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validatiobn</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="form-section section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col col-50 image-section">
+              <figure>
+                <img src="./images/Девушка кафе ноутбук рабочие моменты эстетика.jpg" alt="brand" />
+              </figure>
+            </div>
+            <div class="col col-50 form-container">
+              <form action="" id="regForm">
+                <div class="text-container">
+                    <h4>Register Here</h4>
+                </div>
+                <div class="form-group">
+                  <label for="name">FirstName</label>
+                  <input type="name" id="fname" placeholder="" />
+                   <p class="error" id="fnameErr"></p>
+                </div>
+                <div class="form-group">
+                  <label for="Phone No"></label>
+                  <input type="text" id="phone" placeholder="Phone No" />
+                  <p class="error" id="phonerr"></p>
+                </div>
+                <div class="form-group">
+                  <label for="name">LastName</label>
+                  <p class="error" id="lnameErr"></p>
+                  <input type="name" id="lname" />
+                </div>
+                <div class="checkbox">
+                <p>Gender</p>
+                <div class="radio-section">
+                  <label><input type="radio" /> Male</label>
+                  <label><input type="radio" /> Female</label>
+                </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <p class="error" id="emailErr"></p>
+                    <input type="email" id="email" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <p class="error" id="errpassword"></p>
+                    <input type="text" id="password" />
+                </div>
+                <div class="form-group">
+                    <label for="confirmpassword">Confirm Password</label>
+                    <input type="cnfpwd" id="cnfpwd" />
+                    <p class="error" id="errorcnfpwd"></p>
+                </div>
+
+                <div class="button-group">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./srcipt.js"></script>
+  </body>
+</html>

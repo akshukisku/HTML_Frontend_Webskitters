@@ -113,8 +113,19 @@ nav{
 .banner .text-content h4{
     font-size: 39px;
 }
-
-
+.text-content-3{
+  /* background-color: red; */
+  width: 100%;
+}
+.text-content-2 {
+  display: flex;
+  gap: 20px;
+}
+.text-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .text-content-3{
     display: flex;
     gap: 10px;
@@ -260,6 +271,27 @@ padding: 15px 25px;
       border-radius: 10px;
     }
 
+    .right-section{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      /* background-color: rebeccapurple; */
+      justify-content: center;
+    }
+    .right-section input{
+      padding: 10px 50px;
+      border: none;
+      border-bottom: 1px solid grey;
+    }
+    .filter{
+      /* background-color: red; */
+      width: 50%;
+    }
+    .filter-part{
+      /* background-color: darkblue; */
+      padding: 5px 10px;
+      /* align-self: center; */
+    }
 /* related themes */
 .related-themes .text-part2 h2{
     font-size: 35px;
@@ -410,13 +442,14 @@ footer .row .col-25 figure{
    align-items: center;
    justify-content: space-between;
    /* background-color: red; */
-   width: 100%;
+   /* width: 100%; */
   }
   .navbar-brand{
-    display: flex !important;
-    align-items: center !important;
+    display: flex;
+    align-items: center;
     /* background-color: red; */
-    width: auto;
+    width: 100%;
+    justify-content: space-between;
   }
   .navbar{
     display: flex;
@@ -430,6 +463,25 @@ footer .row .col-25 figure{
   .navbar-lastsection{
     display: none;
   }
+
+
+  /*  */
+.rule-box{
+  /* background-color: red; */
+  width: 100%;
+}
+.rule{
+  /* display: inline-block; */
+  background-color: red;
+  width: 100%;
+  /* align-items: center; */
+}
+.overview-part .row{
+  flex-direction: column;
+  /* align-items: center; */
+  width: 100%;
+}
+
 /* banner */
 
 .banner .row{
@@ -477,6 +529,26 @@ flex-direction: column;
   /* background-color: blue; */
   justify-content: center;
 }
+
+/* last-secton */
+.last-section .row{
+  flex-direction: column;
+  align-items: center;
+}
+
+/* footer */
+
+footer .row{
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  
+}
+footer .row .col-25{
+  text-align: center;
+  /* background-color: rebeccapurple; */
+  width: 100%;
 }
 
 @media  screen and (max-width: 480px) {
